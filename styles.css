@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'DuneRise';
+    src: url('duneFont/Dune_Rise.ttf') format('truetype');
+  }
+  
+h1.display-5 {
+    font-family: 'DuneRise', sans-serif;
+  }
+
+
+.lead {
+    color: white;
+  }
+  
+
+body {
+    background-image: url(images/dune.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    min-height: 100vh; /* Set minimum height to fill the viewport */
+
+  }
+  
+.muadib {
+    width: 50px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 50%;
+  }
+
+#custom-cards {
+    margin-top: 180px;
+  }
+
+.dune-series {
+    color: white;
+  }
+
+.card-cover {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+footer .footer-credits li.nav-item a.nav-link {
+    color: white !important;
+  }
+  
+  
+      
